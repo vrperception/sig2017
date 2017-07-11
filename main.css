@@ -10,15 +10,21 @@ body{
     text-align:         center;
 }
 
-table {
-    border-collapse: collapse;
-}
 
-table, th ,td {
+
+th ,td {
     margin: auto;
     border: 1px solid #bbbbbb;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #bbbbbb;
+    margin: auto;
+    margin-top: 15px;
+/*    width: 800px;*/
 }
 
 a{ 
@@ -31,6 +37,6 @@ a:hover {
 }
 
 p, ul, li, b {
-    width: 800px;
+/*    width: 800px;*/
     margin:auto;
 }
